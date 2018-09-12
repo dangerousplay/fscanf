@@ -10,7 +10,7 @@ int main()
     FILE *fptr;
 
     if ((fptr = fopen("program.txt","r")) == NULL){
-        printf("Error! opening file");
+        printf("Erro ao abrir o arquivo de texto.");
 
         // Program exits if the file pointer returns NULL.
         exit(1);
@@ -18,7 +18,7 @@ int main()
 
     fscanf(fptr,"%d", &num);
 
-    printf("Value of n=%d", num);
+    printf("Vor de n=%d", num);
     fclose(fptr);
 
     return 0;
