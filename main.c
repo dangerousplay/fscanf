@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+ * Lendo número de variável através de um arquivo.
+ * */
 int main()
 {
     int num;
